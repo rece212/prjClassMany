@@ -11,15 +11,15 @@ namespace prjClassMany
             items i = new items();
 
             Console.Clear();
-
-            for (int x = 0; x < i.size(); x++)
+            // this is used to loop to the size of the products you set 
+            for (int x = 0; x < i.size(); x++)// the isize is there to pull the amount of products you decided to use
             {
-                Console.WriteLine( "Please enter the product name "+(x+1)+" :");
+                Console.Write( "Please enter the product name "+(x+1)+" :");//request the product name
                 String strProduct = Console.ReadLine();
 
-                Console.WriteLine("Please enter price for "+strProduct+" R:");
+                Console.Write("Please enter price for "+strProduct+" R:");//request product price
                 double dblPrice = Convert.ToDouble(Console.ReadLine());
-
+                //set the values in the items object
                 i.setProduct(strProduct);
                 i.setPrice(dblPrice);
 

@@ -15,7 +15,7 @@ namespace prjClassMany
             //Welcome message
             Console.WriteLine("Welcome to  "+i.getShopName()+" and Cell number is "+i.getCellNumber());
             Console.WriteLine("###############################################################");
-            Console.WriteLine("Product Name ||Product Price");
+            Console.WriteLine("Product Name | Product Price");
             //Looping the arrays and printing out the values
             for (int x = 0; x < i.size(); x++)
             {
