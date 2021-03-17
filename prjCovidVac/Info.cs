@@ -71,6 +71,51 @@ namespace prjCovidVac
             iCounter++;
     }
 
+        public int size()
+        {
+            return iSizeArray;
+        }
+
+        #region Get values
+        public String getIDNumber(int x)
+        {
+            return ID_Number[x];
+        }
+
+        public string getMedicalAid(int x)
+        {
+            return MedicalAid[x];
+        }
+        public string getName(int x)
+        {
+            return Name[x];
+        }
+        public string getSurname(int x)
+        {
+            return Surname[x];
+        }
+        public string getRefDr(int x)
+        {
+            return RefDr[x];
+        }
+        public char getBloodType(int x)
+        {
+            return BloodType[x];
+        }
+        public string getAllergies(int x)
+        {
+            return Allergies[x];
+        }
+        public Boolean getCovidPostive(int x)
+        {
+            return CovidPostive[x];
+        }
+        public String getVaccine(int x)
+        {
+            return Vaccine[x];
+        }
+        #endregion
+
 
     }
 }
