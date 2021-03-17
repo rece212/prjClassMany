@@ -9,7 +9,7 @@ Province: EC
 
 -------------------------------
 Information of each person :
-
+-------------------------------
 ID number :
 Medical Aid :
 Name :
