@@ -21,7 +21,6 @@ Had covid:
 Vaccine they are getting:
 
 
-
 Program file:
 -----------------------
 Ask the user how many people are getting the vaccine ?
