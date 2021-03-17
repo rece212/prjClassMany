@@ -6,6 +6,8 @@ namespace prjClassMany
     {
         static void Main(string[] args)
         {
+
+
             //connect to the object 
             items i = new items();
             //request the basic info
